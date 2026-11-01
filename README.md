@@ -1,13 +1,13 @@
-# Smart Booking — team board (Weeks 4–5)
+# Smart Booking — Sprint 2 task board (Team 9, IT PM Assignments 8–9)
 
-Kanban board for the Centre Estetic Smart Booking team (IT PM Assignment 4).
-Columns To do / In progress / Review / Done, with the working-agreement rules built in:
+Online task board for Centre Estetic Smart Booking, Sprint 2 (26 Oct – 6 Nov 2026).
+Same tasks, owners, estimates and remaining hours as the Task Board sheet of `IT_PM_A8_A9_Team9.xlsx`.
 
-- **In progress ≤ 5, one task per person; Review ≤ 3.** A move that breaks a limit is refused.
-- **Blocked** cards stay in their column, show the reason and do not count towards WIP; after 48 h they turn red (delivery signal).
-- Filter by owner, drag cards between columns (or use the dropdown on each card).
-- Changes are saved in your browser only. **Reset to snapshot** restores the 12 Oct planning board.
-- To change the shared starting board, edit `src/data.js` and push.
+- Three columns: **To Do / In Progress / Done**. Each card shows task ID, linked PBI (US4–US6), owner, estimated and remaining hours, due date, checker, blocker note and a dated log.
+- **WIP limit:** one task In Progress per member; a move that breaks it is refused.
+- **Done** only after a check by someone who is not the author (the board asks who checked it).
+- Changes made in the browser are saved in that browser only. To update the shared board after the Daily Scrum,
+  click **Copy cards for data.js**, paste over `INITIAL_CARDS` in `src/data.js`, change `SNAPSHOT_VERSION` and `REPORTING_DATE`, and push.
 
 ## Deploy to GitHub Pages
 

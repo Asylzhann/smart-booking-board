@@ -27,8 +27,8 @@ h1 { margin: 2px 0 4px; font-size: 26px; }
 .chip.ghost { color: var(--muted); }
 .spacer { flex: 1; }
 
-.board { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; align-items: start; }
-@media (max-width: 1000px) { .board { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.board { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; align-items: start; }
+@media (max-width: 900px) { .board { grid-template-columns: 1fr; } }
 @media (max-width: 600px) { .board { grid-template-columns: 1fr; } }
 
 .column { background: var(--col); border-radius: 12px; padding: 10px; min-height: 200px; transition: outline-color .15s; outline: 2px dashed transparent; }
@@ -78,3 +78,20 @@ h1 { margin: 2px 0 4px; font-size: 26px; }
 .dot.t-F3 { background: #c0392b; } .dot.t-F14 { background: var(--blue); } .dot.t-F6 { background: #2e7d5b; } .dot.t-K { background: var(--purple); } .dot.t-OPS { background: var(--amber); }
 
 .toast { position: fixed; left: 50%; bottom: 20px; transform: translateX(-50%); background: var(--ink); color: #fff; padding: 10px 16px; border-radius: 8px; box-shadow: 0 4px 14px rgba(0,0,0,.2); max-width: calc(100% - 32px); }
+
+/* ---- Sprint 2 board (A8–A9) ---- */
+.goal { margin: 6px 0 0; max-width: 820px; font-size: 13px; color: #444; }
+.card.t-US4 { border-left-color: var(--blue); }
+.card.t-US5 { border-left-color: var(--amber); }
+.card.t-US6 { border-left-color: var(--green); }
+.tag.t-US4 { background: var(--blue-t); color: #22508a; }
+.tag.t-US5 { background: var(--amber-t); color: #8a5a12; }
+.tag.t-US6 { background: var(--green-t); color: #21613f; }
+.dot.t-US4 { background: var(--blue); } .dot.t-US5 { background: var(--amber); } .dot.t-US6 { background: var(--green); }
+.note-line { margin: 0 0 6px; font-size: 12px; color: #555; background: #f6f2ef; border-radius: 5px; padding: 3px 6px; }
+.hours { display: flex; justify-content: space-between; align-items: center; gap: 8px; margin: 0 0 6px; font-size: 12.5px; }
+.hours input { width: 54px; border: 1px solid var(--line); border-radius: 5px; padding: 1px 4px; font: inherit; font-weight: 700; }
+.checker { margin: 4px 0 0; font-size: 12px; color: var(--muted); }
+.log { margin: 4px 0 6px; font-size: 12px; color: #555; }
+.log summary { cursor: pointer; color: var(--burg); font-weight: 600; }
+.log ul { margin: 4px 0 0; padding-left: 16px; }
