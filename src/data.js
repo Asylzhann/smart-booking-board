@@ -2,7 +2,7 @@
 // Based on the team-approved Sprint 2 Daily Log (Assignment 10 project update). Total remaining 11 h (T10–T12, deferred to MVP 1).
 // Update this file after each Daily Scrum and push.
 
-export const SNAPSHOT_VERSION = '2026-11-06-sprint2-final';
+export const SNAPSHOT_VERSION = '2026-11-06-sprint2-final-r2';
 export const REPORTING_DATE = 'Fri 6 Nov 2026 (Day 10 of 10, Sprint 2 closed)';
 
 export const COLUMNS = [
@@ -139,7 +139,7 @@ export const INITIAL_CARDS = [
     "est": 4,
     "added": 0,
     "rem": 4,
-    "due": "2026-11-04",
+    "due": "2026-11-17",
     "checker": "—",
     "note": "Deferred to MVP 1 – not started (Sprint 2 closed 6 Nov).",
     "log": [
@@ -157,7 +157,7 @@ export const INITIAL_CARDS = [
     "est": 4,
     "added": 0,
     "rem": 4,
-    "due": "2026-11-04",
+    "due": "2026-11-17",
     "checker": "—",
     "note": "Deferred to MVP 1 – not started (Sprint 2 closed 6 Nov).",
     "log": [
@@ -175,7 +175,7 @@ export const INITIAL_CARDS = [
     "est": 3,
     "added": 0,
     "rem": 3,
-    "due": "2026-11-05",
+    "due": "2026-11-18",
     "checker": "—",
     "note": "Deferred to MVP 1 – not started (Sprint 2 closed 6 Nov).",
     "log": [
